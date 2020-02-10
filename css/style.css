@@ -1,0 +1,176 @@
+body {
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.list-nav,
+.advantages,
+.list-footer {
+  list-style: none;
+}
+
+.list-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+  text-align: center;
+}
+
+.title-sedona {
+  display: flex;
+  justify-content: center;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.first-title-advantages,
+.second-title-advantages {
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.five-advantages {
+  text-align: center;
+}
+
+.title-advantages {
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.interested {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.phone {
+  font-size: 21px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.title-sort {
+  font-weight: bold;
+}
+
+/*.unit-sort {}*/
+.button-show {
+  text-transform: uppercase;
+}
+
+.search-filter {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.unit-search-filter {
+  font-size: 12px;
+}
+
+.title-hotel {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+/*.view-house {}*/
+.more {
+  font-weight: bold;
+}
+
+.reservation {
+  font-weight: bold;
+}
+
+.main-image {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  background-image: url("../img/background-photo.jpg");
+  background-color: #81b3d2;
+}
+
+.first-advantages,
+.second-advantages {
+  display: flex;
+}
+
+.present-city,
+.bridge-diablo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #81b3d2;
+  color: #fff;
+}
+
+.advantages {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.list-advantages {
+  display: flex;
+}
+
+.book-sedona {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.data-travel {
+  text-align: center;
+}

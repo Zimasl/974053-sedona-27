@@ -4,15 +4,18 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <nav>
+    <nav class="block-nav">
       <a href="index.html">
-        <img src="img/logo.svg" width="140" height="71" alt="Логотип Booking Sedona">
+        <img class="logo" src="img/logo.svg" width="140" height="71" alt="Логотип Booking Sedona">
       </a>
-      <ul>
+      <ul class="list-nav">
         <li><a href="#">Информация</a></li>
         <li><a href="#">Фото и видео</a></li>
         <li><a href="#">Карта Штата</a></li>
@@ -21,64 +24,78 @@
     </nav>
   </header>
   <main>
-    <h1>Booking Sedona</h1>
-    <img src="img/intro-welcome.svg"  width="459 height="353" alt="welcome">
-    <div>
-      <h2>Седона — небольшой городок в Аризоне,
-        заслуживающий большего!</h2>
-      <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+    <div class="main-image">
+      <h1 class="visually-hidden">Booking Sedona</h1>
+      <img src="img/intro-welcome.svg" width="459" height="353" alt="welcome">
     </div>
-    <article>
-      <h3>Настоящий городок</h3>
-      <span>— №1 —</span>
+    <div>
+      <h2 class="title-sedona">Седона — небольшой городок в Аризоне,
+        заслуживающий большего!</h2>
+      <p class="five-advantages">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+    </div>
+    <article class="first-advantages">
+      <div class="present-city">
+        <h3 class="first-title-advantages">Настоящий городок</h3>
+        <span>— №1 —</span>
         <p>Седона — не аттракцион для туристов,
-        там течёт своя жизнь
-      </p>
+          там течёт своя жизнь
+        </p>
+      </div>
       <img src="img/feature-picture.jpg" width="800" height="256" alt="Вид на городок">
     </article>
-    <div>
-      <ul>
-        <li> Жилье
+
+    <div class="list-advantages">
+      <ul class="advantages">
+        <li>
+          <span class="title-advantages">Жилье</span>
           Рекомендуем пожить в настоящем
           мотеле, всё как в кино!
         </li>
-        <li> Еда
+        <li>
+          <span class="title-advantages"> Еда</span>
           Всегда заказывайте фирменный бургер,
           вы не разочаруетесь!
         </li>
-        <li> Сувениры
+        <li>
+          <span class="title-advantages">Сувениры</span>
           Не только китайского, но и местного
           производства!
         </li>
       </ul>
     </div>
-    <section>
+
+    <article class="second-advantages">
       <img src="img/bridge-diablo.jpg" width="800" height="256" alt="Мост дьявола">
-      <h3>Там есть Мост дьявола</h3>
-       <span>— №2 —</span>
-        <p>Да, по нему можно пройти! Если конечно
+      <div class="bridge-diablo">
+      <h3 class="second-title-advantages">Там есть Мост дьявола</h3>
+      <span>— №2 —</span>
+      <p>Да, по нему можно пройти! Если конечно
         вы осмелитесь
       </p>
-    </section>
+      </div>
+    </article>
     <div>
-      <ul>
-        <li>Небольшая площадь
-          — №3 — Все достопримечательности
-          находятся очень близко
+      <ul class="advantages">
+        <li>
+          <span class="title-advantages">Небольшая площадь</span>
+          <span>— №3 — Все достопримечательности
+            находятся очень близко</span>
         </li>
-        <li>Красивая дорога
-          — №4 —Ехать в Седону из Лас-Вегаса совсем
-          не скучно!
+        <li>
+          <span class="title-advantages">Красивая дорога</span>
+          <span>— №4 —Ехать в Седону из Лас-Вегаса совсем
+            не скучно!</span>
         </li>
-        <li> Мало туристов
-          №5 — Большинство едет в гранд каньон
-          и толпится там
+        <li>
+          <span class="title-advantages">Мало туристов</span>
+          <span>— №5 — Большинство едет в гранд каньон
+            и толпится там</span>
         </li>
       </ul>
     </div>
-    <div>
-      <h3>Заинтересовались?</h3>
-        <p>Укажите предполагаемые даты поездки,
+    <div class="book-sedona">
+      <h3 class="interested">Заинтересовались?</h3>
+      <p class="data-travel">Укажите предполагаемые даты поездки,<br>
         и мы покажем вам лучшие предложения гостиниц в седоне
       </p>
     </div>
@@ -88,31 +105,36 @@
       </a>
     </div>
     <div>
-      <h3>Стоимость гостиницы в седоне</h3>
-    <form action="https://echo.htmlacademy.ru" method="post">
-    <input type="data" name="data-in" value="2017-04-24"/>
-    <input type="data" name="data-out" value="2017-07-24"/>
-    <p>
-      <label for="people">Взрослые</label>
-      <input type="text" id="people" />
-    </p>
-    <p>
-      <label>
-        <lable for="child">Дети</lable>
-        <input type="text" id="child">
-      </label>
-    </p>
+      <h3 class="visually-hidden">Стоимость гостиницы в седоне</h3>
+      <button type="button">Поиск гостиницы в седоне</button>
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <span>Дата заезда:</span>
+        <input type="text" name="data-in" placeholder="2017-04-24" />
+        <span>Дата выезда:</span>
+        <input type="text" name="data-out" placeholder="2017-07-24" />
+        <p>
+          <span>Взрослые</span>
+          <button type="button">-</button>
+          <span>2</span>
+          <button type="button">+</button>
+        </p>
+        <p>
+          <span>Дети</span>
+          <button type="button">-</button>
+          <span>0</span>
+          <button type="button">+</button>
+        </p>
       </form>
       <button type="submit">Найти</button>
     </div>
   </main>
-  <footer>
+  <footer class="list-footer">
     <p>
       #visitSEDONA<br>
-      <a href="tel:+7495666-02-66"> + 7(495) 666-02-66</a>
+      <a class="phone" href="tel:+7495666-02-66"> + 7(495) 666-02-66</a>
     </p>
     <div>
-      <ul>
+      <ul class="list-footer">
         <li><a href="">Твитер</a></li>
         <li><a href="">Фейсбук</a></li>
         <li><a href="">Ютуб</a></li>
@@ -122,8 +144,8 @@
     <p>
       Website by
       <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy
-      <img src="img/logo-htmlacademy.svg" width="115" height="41"  alt="HTML Academy">
-    </a>
+        <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTML Academy">
+      </a>
     </p>
   </footer>
 </body>
