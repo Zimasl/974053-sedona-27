@@ -53,11 +53,16 @@ input[type="checkbox"].visually-hidden,
 }
 
 .list-nav {
+  text-decoration: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   font-weight: bold;
   text-align: center;
+}
+
+.list-nav a {
+  color: #000;
 }
 
 .list-nav a:hover,
@@ -68,6 +73,13 @@ input[type="checkbox"].visually-hidden,
 .list-nav a:active,
 .title-hotel:active {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.rating-hotel {
+  color: #666;
+  background-color: #f2f2f2;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .title-sedona {
@@ -85,7 +97,9 @@ input[type="checkbox"].visually-hidden,
   text-align: center;
 }
 
-.five-advantages {
+.five-advantages,
+.data-travel {
+  color: #333;
   text-align: center;
 }
 
@@ -201,13 +215,14 @@ input[type="checkbox"].visually-hidden,
   color: #bdbbbc;
 }
 
-.data-travel {
-  text-align: center;
-}
+
 
 .search-sedona,
 .reservation {
+  color: #fff;
   background-color: #766357;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .search-sedona:hover,
@@ -288,6 +303,7 @@ input[type="checkbox"].visually-hidden,
   background-color: rgba(0, 0, 0, 0);
   border: solid 2px #ffffff;
   border-radius: 2px;
+
 }
 
 .button-show:hover {
