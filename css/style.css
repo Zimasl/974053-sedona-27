@@ -62,7 +62,7 @@ input[type="checkbox"].visually-hidden,
 }
 
 .list-nav a {
-  color: #000;
+  color: #000000;
 }
 
 .list-nav a:hover,
@@ -76,7 +76,7 @@ input[type="checkbox"].visually-hidden,
 }
 
 .rating-hotel {
-  color: #666;
+  color: #666666;
   background-color: #f2f2f2;
   text-align: center;
   text-transform: uppercase;
@@ -99,7 +99,7 @@ input[type="checkbox"].visually-hidden,
 
 .five-advantages,
 .data-travel {
-  color: #333;
+  color: #333333;
   text-align: center;
 }
 
@@ -121,7 +121,7 @@ input[type="checkbox"].visually-hidden,
 
 .tag,
 .phone {
-  color: #000;
+  color: #000000;
   font-size: 21px;
   text-align: center;
   font-weight: bold;
@@ -132,7 +132,7 @@ input[type="checkbox"].visually-hidden,
 }
 
 .unit-sort {
-  color: #fff;
+  color: #ffffff;
 }
 
 .button-show {
@@ -149,7 +149,7 @@ input[type="checkbox"].visually-hidden,
 }
 
 .title-hotel {
-  color: #000;
+  color: #000000;
   font-size: 21px;
   font-weight: bold;
 }
@@ -159,7 +159,7 @@ input[type="checkbox"].visually-hidden,
 }
 
 .reservation {
-  color: #fff;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -183,7 +183,7 @@ input[type="checkbox"].visually-hidden,
   justify-content: center;
   text-align: center;
   background-color: #81b3d2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .advantages {
@@ -215,12 +215,11 @@ input[type="checkbox"].visually-hidden,
   color: #bdbbbc;
 }
 
-
-
 .search-sedona,
 .reservation {
-  color: #fff;
+  color: #ffffff;
   background-color: #766357;
+  font-size: 21px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -234,6 +233,12 @@ input[type="checkbox"].visually-hidden,
 .reservation:active {
   background-color: #503e33;
   color: rgba(255, 255, 255, 0.3);
+}
+
+.data,
+.adults,
+.children {
+  font-weight: bold;
 }
 
 .data-in,
@@ -274,9 +279,16 @@ input[type="checkbox"].visually-hidden,
   outline: #f2f2f2;
 }
 
-.find-button,
+.find-button {
+  font-size: 21px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #81b3d2;
+  text-transform: uppercase;
+}
+
 .more {
-  color: #fff;
+  color: #ffffff;
   background-color: #81b3d2;
 }
 
@@ -294,12 +306,12 @@ input[type="checkbox"].visually-hidden,
 }
 
 .image-form {
-  color: #fff;
+  color: #ffffff;
   background-image: url("../img/filter-background.jpg");
 }
 
 .button-show {
-  color: #fff;
+  color: #ffffff;
   background-color: rgba(0, 0, 0, 0);
   border: solid 2px #ffffff;
   border-radius: 2px;
@@ -308,7 +320,7 @@ input[type="checkbox"].visually-hidden,
 
 .button-show:hover {
   color: #000;
-  background-color: #fff;
+  background-color: #fffff;
   border: solid 2px #ffffff;
   border-radius: 2px;
 }
@@ -327,5 +339,5 @@ input[type="checkbox"].visually-hidden,
 }
 
 .unit-search-filter a:active {
-  color: #000;
+  color: #000000;
 }
