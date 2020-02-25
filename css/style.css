@@ -56,9 +56,13 @@ input[type="checkbox"].visually-hidden,
   text-decoration: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   font-weight: bold;
   text-align: center;
+}
+
+.center {
+  justify-content: center;
 }
 
 .list-nav a {
@@ -83,6 +87,8 @@ input[type="checkbox"].visually-hidden,
 }
 
 .title-sedona {
+  width: 440px;
+  height: 48px;
   display: flex;
   justify-content: center;
   font-size: 21px;
@@ -95,6 +101,11 @@ input[type="checkbox"].visually-hidden,
   font-size: 21px;
   font-weight: bold;
   text-align: center;
+}
+
+.five-advantages {
+  width: 489px;
+  height: 13px;
 }
 
 .five-advantages,
@@ -165,6 +176,7 @@ input[type="checkbox"].visually-hidden,
 
 .main-image {
   width: 1200px;
+  height: 773px;
   display: flex;
   justify-content: center;
   background-image: url("../img/background-photo.jpg");
@@ -175,6 +187,7 @@ input[type="checkbox"].visually-hidden,
 .second-advantages {
   display: flex;
 }
+
 
 .present-city,
 .bridge-diablo {
@@ -205,6 +218,11 @@ input[type="checkbox"].visually-hidden,
 .list-footer {
   display: flex;
   justify-content: space-around;
+}
+
+.logo {
+  position: absolute;
+
 }
 
 .logo-footer:hover {
